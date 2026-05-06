@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    color: beige;
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Элементы будут друг под другом (нав, текст, низ) */
+    justify-content: space-between; /* Распределит их: нав — вверх, текст — в центр, низ — в самый низ */
+    align-items: center; /* Выровняет всё по центру по горизонтали */
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+nav {
+    display: flex; /* Выстраивает ЛОГО и СПИСОК в ряд */
+    justify-content: space-between; 
+    width: 100%;
+    padding: 20px 50px;
+}
+
+ul {
+    display: flex; /* Выстраивает ПУНКТЫ МЕНЮ внутри списка в ряд */
+    list-style: none; /* Убирает точки */
+    gap: 20px; /* Расстояние между ссылками */
+}
